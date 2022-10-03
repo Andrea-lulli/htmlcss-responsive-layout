@@ -124,6 +124,22 @@ nav{
     display: inline-block;
 }
 
+
+/* section 4 testimonials */
+
+.testo-purple{
+    color: rgb(173, 99, 213);
+    margin: 15px 0;
+}
+
+.title-testimonials{
+    text-align: center;
+}
+
+.title-testimonials h5{
+    margin-top: 15px;
+}
+
     
 
 
