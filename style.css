@@ -4,9 +4,11 @@
     box-sizing: border-box; 
 }
 
+/* header-nav */
+
 header{
     width: 100%;
-    background-color: rgb(48, 48, 228);
+    background-color: rgb(34, 148, 235);
 }
 
 .conteiner {
@@ -39,4 +41,95 @@ nav{
     fill: white;
     width: 10%;
     justify-content: flex-end;
+}
+
+/* section-card */
+.card{
+    background-color: rgba(44, 221, 227, 0.47);
+    width: 100%;
+    margin: 25px 0;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+h3{
+    color:rgb(34, 148, 235) ;
+    margin: 10px 0;
+}
+
+.app-store{
+    background-color:rgb(34, 148, 235) ;
+    border-radius: 20px;
+    padding: 5px 35px;
+    margin: 10px 0;
+    border: none;
+    color: white;
+    margin: 15px 0;
+}
+
+.phone img {
+    width: 100%;
+}
+.card-clean{
+    text-align: center;
+}
+
+.fa-file-code{
+    fill: rgb(34, 148, 235);
+    width: 20%;
+}
+
+
+@media screen 
+and ( min-width: 426px ) {
+
+    .section-card{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-demo{
+        flex-basis: 60%;
+    }
+
+    .card-clean{
+        flex-basis: 38%;
+    }
+
+
+
+    
+}
+    
+
+
+
+@media screen 
+and ( min-width: 769px ) {
+
+    .section-card{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-demo{
+        flex-basis: 60%;
+        display: flex;
+       
+    }
+
+    .card-clean{
+        flex-basis: 38%;
+    }
+
+    .testo, .phone{
+        flex-basis: 48%;
+        
+    }
+
+
+
+    
+}
+    
 }
