@@ -16,6 +16,10 @@ header{
     margin: auto;
 }
 
+.text-center{
+    text-align: center;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -43,7 +47,7 @@ nav{
     justify-content: flex-end;
 }
 
-/* section-card */
+/* section-card-1 */
 .card{
     background-color: rgba(44, 221, 227, 0.47);
     width: 100%;
@@ -70,20 +74,25 @@ h3{
 .phone img {
     width: 100%;
 }
-.card-clean{
-    text-align: center;
-}
+
 
 .fa-file-code{
     fill: rgb(34, 148, 235);
     width: 20%;
 }
 
+/* section-card-1 */
+
+
+
+
+
 
 @media screen 
-and ( min-width: 426px ) {
+and ( min-width: 426px )
+and ( max-width: 768px ) {
 
-    .section-card{
+    .section-card-1, .section-card-2 {
         display: flex;
         justify-content: space-between;
     }
@@ -96,8 +105,9 @@ and ( min-width: 426px ) {
         flex-basis: 38%;
     }
 
-
-
+    .web-design, .dev, .branding{
+        flex-basis: 31%;
+    }
     
 }
     
@@ -107,7 +117,7 @@ and ( min-width: 426px ) {
 @media screen 
 and ( min-width: 769px ) {
 
-    .section-card{
+    .section-card-1, .section-card-2{
         display: flex;
         justify-content: space-between;
     }
@@ -126,10 +136,10 @@ and ( min-width: 769px ) {
         flex-basis: 48%;
         
     }
-
-
-
+    .web-design, .dev, .branding{
+        flex-basis: 31%;
+    }
+    
     
 }
     
-}
