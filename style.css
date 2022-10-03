@@ -84,7 +84,7 @@ nav{
 
 /* section 3 - strategic planning */
 
-.section-strategic{
+.section-strategic, .section-benefits {
     width: 100%;
     background-color: rgb(173, 99, 213);
     padding: 30px 0;  
@@ -129,7 +129,8 @@ nav{
 
 .testo-purple{
     color: rgb(173, 99, 213);
-    margin: 15px 0;
+    margin: 20px 0;
+    display: inline-block;
 }
 
 .title-testimonials{
@@ -156,6 +157,37 @@ nav{
 .card-name  p{
     margin: 10px 0;
 }
+
+
+/* section 5  - benefits of working */
+
+.card-bn-of-working{
+    background-color: white ;
+    border-radius: 10px;
+    padding: 0px 15px;
+    margin: 15px 0;
+}
+
+.card-bn-of-working > div{
+    color:rgb(173, 99, 213) ;
+}
+
+.card-bn-of-working div{
+    margin: 10px 0;
+}
+
+.nutton-more{
+    background-color:rgb(173, 99, 213) ;
+    border-radius: 20px;
+    padding: 5px 35px;
+    margin: 10px 0;
+    border: none;
+    color: white;
+    margin: 15px 0;
+}
+
+/* section 6  - about us  */
+
 
 
 
@@ -197,6 +229,18 @@ and ( max-width: 768px ) {
     .card-img img{
         text-align: center;
     }
+
+    .card-benefits{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card-bn-of-working{
+        flex-basis: 48%;
+    }
+
+
     
     
 }
@@ -251,6 +295,17 @@ and ( min-width: 769px ) {
     .card-img img{
         text-align: center;
     }
+
+    .card-benefits{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card-bn-of-working{
+        flex-basis: 32%;
+    }
+
     
 }
     
