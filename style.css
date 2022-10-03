@@ -24,6 +24,13 @@ header{
 
 }
 
+.conteiner3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
 .text-center{
     text-align: center;
 }
@@ -234,23 +241,19 @@ nav{
 
 
 /* footer*/
+footer{
+    background-color: rgb(89, 83, 83);
+}
 
+.conteiner3 p{
+    padding: 15px 0;
+}
 
+.boolean{
+    padding: 20px 0;
+}
 
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
+/* media query */
 @media screen 
 and ( min-width: 426px )
 and ( max-width: 768px ) {
@@ -300,18 +303,11 @@ and ( max-width: 768px ) {
         margin: 0 15px;
     }
 
-    .conteiner1{
+    .conteiner1, .conteiner3{
         width: 60%;
-    }
-
-
-
-
-    
-    
+    }   
 }
     
-
 
 
 @media screen 
@@ -381,11 +377,8 @@ and ( min-width: 769px ) {
         margin: 0 15px;
     }
 
-    .conteiner1{
+    .conteiner1, .conteiner3{
         width: 40%;
-    }
-
-
-    
+    }   
 }
     
