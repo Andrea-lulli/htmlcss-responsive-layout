@@ -16,6 +16,14 @@ header{
     margin: auto;
 }
 
+.conteiner1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+}
+
 .text-center{
     text-align: center;
 }
@@ -84,7 +92,7 @@ nav{
 
 /* section 3 - strategic planning */
 
-.section-strategic, .section-benefits {
+.section-strategic, .section-benefits, .section-get-started {
     width: 100%;
     background-color: rgb(173, 99, 213);
     padding: 30px 0;  
@@ -188,6 +196,49 @@ nav{
 
 /* section 6  - about us  */
 
+.about-us-img img{
+    width: 70%; 
+    border-radius: 50%; 
+    margin: 15px 0px; 
+}
+
+.about-us-img p{
+    color:rgb(173, 99, 213) ;
+}
+
+
+/* section 7  - get started */
+.botton-white{
+    background-color:white ;
+    border-radius: 20px;
+    padding: 5px 35px;
+    margin: 10px 0;
+    border: none;
+    color: rgb(173, 99, 213);
+    margin: 15px 0;
+}
+
+.conteiner1 div{
+    margin: 10px 0;
+    opacity: 0.5;
+}
+
+.free{
+    color: yellow;
+    font-size: 45px;
+}
+
+.copyright{
+    font-size: 12px;
+}
+
+
+/* footer*/
+
+
+
+
+
 
 
 
@@ -239,6 +290,21 @@ and ( max-width: 768px ) {
     .card-bn-of-working{
         flex-basis: 48%;
     }
+
+    .card-about-us{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us, .about-us-img{
+        margin: 0 15px;
+    }
+
+    .conteiner1{
+        width: 60%;
+    }
+
+
 
 
     
@@ -305,6 +371,20 @@ and ( min-width: 769px ) {
     .card-bn-of-working{
         flex-basis: 32%;
     }
+
+    .card-about-us{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us, .about-us-img{
+        margin: 0 15px;
+    }
+
+    .conteiner1{
+        width: 40%;
+    }
+
 
     
 }
