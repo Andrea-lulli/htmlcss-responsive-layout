@@ -279,6 +279,17 @@ nav{
 
 .about-us-img p{
     color:rgba(151,146,228,255) ;
+    font-size: 24px;
+}
+
+.testo-us{
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+#title-about-us{
+    font-size: 40px;
+    margin-top: 65px;
 }
 
 
@@ -389,6 +400,7 @@ and ( max-width: 768px ) {
 
     .about-us-img{
         flex-basis: 38%;
+        
     }
 
     .conteiner1, .conteiner3{
@@ -497,8 +509,17 @@ and ( min-width: 769px ) {
         margin: 0 15px;
     }
 
+    .about-us{
+        flex-basis: 68%;  
+    }
+
+    .about-us-img{
+        margin-top: 50px;
+        flex-basis: 40%;
+    }
+
     .conteiner1, .conteiner3{
-        width: 40%;
+        width: 30%;
     }
     
     .conteiner {
