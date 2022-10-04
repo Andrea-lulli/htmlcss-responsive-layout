@@ -55,6 +55,10 @@ p{
     right: 25%;
 }
 
+a{
+    color:rgba(151,146,228,255) ;
+}
+
 /* header-nav */
 
 header{
