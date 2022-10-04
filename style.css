@@ -400,7 +400,7 @@ and ( max-width: 768px ) {
 
 @media screen 
 and ( min-width: 769px ) {
-
+    
     .header-menu{
         display: inline-block;
     }
