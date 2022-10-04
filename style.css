@@ -47,7 +47,7 @@ p{
 }
 
 .svg-blue{
-    fill: rgb(173, 99, 213);
+    fill: rgba(151,146,228,255);
     width: 15%;
     margin: 0 8px;
     position: absolute;
@@ -95,7 +95,7 @@ nav{
 
 /* section-card-1  e 2*/
 .card{
-    background-color: rgba(44, 221, 227, 0.47);
+    background-color: rgba(181,221,255,255);
     width: 100%;
     margin: 25px 0;
     border-radius: 20px;
@@ -135,7 +135,7 @@ nav{
 
 .section-strategic, .section-benefits, .section-get-started {
     width: 100%;
-    background-color: rgb(173, 99, 213);
+    background-color: rgba(151,146,228,255);
     padding: 30px 0;  
 }
 
@@ -166,7 +166,7 @@ nav{
 }
 
 .freccia{
-    background-color: rgb(173, 99, 213) ;
+    background-color: rgba(151,146,228,255) ;
     padding: 5px 10px;
     border-radius: 50%;
     margin: 20px 10px ;
@@ -177,7 +177,7 @@ nav{
 /* section 4 testimonials */
 
 .testo-purple{
-    color: rgb(173, 99, 213);
+    color: rgba(151,146,228,255);
     margin: 20px 0;
     display: inline-block;
 }
@@ -191,7 +191,7 @@ nav{
 }
 
 .card-name{
-    background-color:rgb(173, 99, 213) ;
+    background-color:rgba(151,146,228,255);
     border-radius: 15px;
     text-align: center;
     margin: 20px 0;
@@ -242,7 +242,7 @@ nav{
 }
 
 .card-bn-of-working > div{
-    color:rgb(173, 99, 213) ;
+    color:rgba(151,146,228,255) ;
 }
 
 .card-bn-of-working div{
@@ -254,7 +254,7 @@ nav{
 }
 
 .nutton-more{
-    background-color:rgb(173, 99, 213) ;
+    background-color:rgba(151,146,228,255) ;
     border-radius: 20px;
     padding: 5px 35px;
     margin: 10px 0;
@@ -278,7 +278,7 @@ nav{
 }
 
 .about-us-img p{
-    color:rgb(173, 99, 213) ;
+    color:rgba(151,146,228,255) ;
 }
 
 
@@ -289,28 +289,33 @@ nav{
     padding: 5px 35px;
     margin: 10px 0;
     border: none;
-    color: rgb(173, 99, 213);
+    color: rgba(151,146,228,255);
     margin: 15px 0;
 }
 
-.conteiner1 div{
+.get-started{
     margin: 10px 0;
     opacity: 0.5;
 }
 
 .free{
-    color: yellow;
+    color: rgba(253,193,95,255);
     font-size: 45px;
+    margin: 15px 0;
 }
 
 .copyright{
     font-size: 12px;
 }
 
+.privacy{
+    text-decoration:underline;
+}
+
 
 /* footer*/
 footer{
-    background-color: rgb(89, 83, 83);
+    background-color: rgba(51,51,51,255);
 }
 
 .conteiner3 p{
@@ -320,6 +325,8 @@ footer{
 .boolean{
     padding: 20px 0;
 }
+
+
 
 /* media query */
 @media screen 
