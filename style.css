@@ -36,10 +36,23 @@ p{
     line-height: 25px;
 }
 
+.p-white{
+    color: white;
+}
+
 .svg-white{
     fill: white;
     width: 18px;
     margin: 0 8px;
+}
+
+.svg-blue{
+    fill: rgb(173, 99, 213);
+    width: 15%;
+    margin: 0 8px;
+    position: absolute;
+    top: 3%;
+    right: 25%;
 }
 
 /* header-nav */
@@ -194,9 +207,13 @@ nav{
 
 .card-img{
     width: 200px;
-    height: 200px;
-    position: relative; 
-    left: 15%;
+    height: 200px;    
+}
+
+.box-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-name  p{
@@ -220,7 +237,7 @@ nav{
 .card-bn-of-working{
     background-color: white ;
     border-radius: 10px;
-    padding: 0px 15px;
+    padding: 15px 15px;
     margin: 15px 0px;
 }
 
@@ -244,6 +261,8 @@ nav{
     border: none;
     color: white;
     margin: 15px 0;
+    display: flex;
+    align-items: center;
 }
 
 /* section 6  - about us  */
@@ -252,6 +271,10 @@ nav{
     width: 70%; 
     border-radius: 50%; 
     margin: 15px 0px; 
+}
+
+.about-us-img{
+    position: relative;
 }
 
 .about-us-img p{
@@ -322,12 +345,11 @@ and ( max-width: 768px ) {
 
     .card-name{
         display: flex;
-        align-items: center;
         justify-content: space-between;   
     }
-    .card-img{
+    .box-img{
         flex-basis: 30%;
-        left: 2%;
+        padding: 0 10px;
     }
 
     .card-testo{
@@ -354,8 +376,12 @@ and ( max-width: 768px ) {
         justify-content: space-between;
     }
 
-    .about-us, .about-us-img{
-        margin: 0 15px;
+    .about-us{
+        flex-basis: 60%;
+    }
+
+    .about-us-img{
+        flex-basis: 38%;
     }
 
     .conteiner1, .conteiner3{
@@ -376,7 +402,7 @@ and ( min-width: 769px ) {
     }
 
     .nav-dx{
-        flex-basis: 60%;
+        flex-basis: 70%;
     }
 
     .header-menu span{
@@ -431,9 +457,9 @@ and ( min-width: 769px ) {
         align-items: center;
         justify-content: space-between;   
     }
-    .card-img{
-        flex-basis: 15%;
-        left: 2%;
+    .box-img{
+        flex-basis: 30%;
+        padding: 0 10px;
     }
 
     .card-testo{
@@ -466,6 +492,10 @@ and ( min-width: 769px ) {
 
     .conteiner1, .conteiner3{
         width: 40%;
-    }   
+    }
+    
+    .conteiner {
+        width: 70%;
+    }
 }
     
