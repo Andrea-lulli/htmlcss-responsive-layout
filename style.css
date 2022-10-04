@@ -118,6 +118,7 @@ nav{
     font-size: 16px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .phone img {
@@ -263,6 +264,7 @@ nav{
     margin: 15px 0;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 /* section 6  - about us  */
@@ -302,6 +304,7 @@ nav{
     border: none;
     color: rgba(151,146,228,255);
     margin: 15px 0;
+    cursor: pointer;
 }
 
 .get-started{
@@ -321,6 +324,7 @@ nav{
 
 .privacy{
     text-decoration:underline;
+    cursor: pointer;
 }
 
 
@@ -428,6 +432,7 @@ and ( min-width: 769px ) {
         opacity: 0.5;
         margin: 0 6px;
         color: white;
+        cursor: pointer;
     }
 
     .botton-white{
