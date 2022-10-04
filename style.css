@@ -1,15 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif; 
 }
 
-/* header-nav */
+/* utility */
 
-header{
-    width: 100%;
-    background-color: rgb(34, 148, 235);
-}
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter&family=Kanit:ital@1&family=Noto+Sans&family=PT+Sans:ital@1&family=Roboto&family=Ubuntu&display=swap');
 
 .conteiner {
     width: 90%;
@@ -21,7 +19,6 @@ header{
     margin: auto;
     text-align: center;
     color: white;
-
 }
 
 .conteiner3{
@@ -35,10 +32,21 @@ header{
     text-align: center;
 }
 
+/* header-nav */
+
+header{
+    width: 100%;
+    background-color: rgb(34, 148, 235);
+}
+
+.header-menu{
+    display: none;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 7px 0;
     align-items: center;
 }
 
@@ -53,12 +61,12 @@ nav{
 }
 
 .nav-sx img{
-    width: 20%;
+    width: 60px;
 }
 
 .nav-dx svg {
     fill: white;
-    width: 10%;
+    width: 15px;
     justify-content: flex-end;
 }
 
@@ -160,13 +168,13 @@ nav{
     background-color:rgb(173, 99, 213) ;
     border-radius: 15px;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 0;    
 }
 
 .card-img img{
-    width: 70%; 
+    width: 70%;
     border-radius: 50%; 
-    margin: 15px 0px;    
+    margin: 15px 0px;     
 }
 
 .card-name  p{
@@ -319,6 +327,28 @@ and ( max-width: 768px ) {
 
 @media screen 
 and ( min-width: 769px ) {
+
+    .header-menu{
+        display: inline-block;
+    }
+    .nav-dx svg{
+        display: none;
+    }
+
+    .nav-dx{
+        flex-basis: 60%;
+    }
+
+    .header-menu span{
+        opacity: 0.5;
+        margin: 0 6px;
+        color: white;
+    }
+
+    .botton-white{
+        color: black;
+    }
+
 
     .section-card-1, .section-card-2{
         display: flex;
